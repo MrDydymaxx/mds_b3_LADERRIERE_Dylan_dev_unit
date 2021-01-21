@@ -87,7 +87,7 @@ test('User should be Marc Antoine object', () => {
 test('Should be under or equal 1000', () => {
   const load1 = 500;
   const load2 = 500;
-  // Complete here
+  expect(functions.add(load1, load2)).toBeLessThanOrEqual(1000);
 });
 
 // Regex
