@@ -1,1 +1,5 @@
-# mds_b3_LADERRIERE_Dylan_dev_unit
+# unit_test
+Unit test with Jest
+
+# How to execute test ?
+npm test
