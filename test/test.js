@@ -78,7 +78,9 @@ test('Should be falsy', () => {
 
 // toEqual
 test('User should be Marc Antoine object', () => {
-  // Complete here
+  const name = { firstName: 'Marc' };
+    name['lastName'] = 'Antoine'; 
+  expect(functions.createUser()).toEqual(name);
 });
 
 // Less than and greater than
