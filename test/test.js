@@ -37,12 +37,13 @@ describe('Checking Names', () => {
 
   test('User is Jeff', () => {
     const user = 'Jeff';
-    expect(user).toBe('Jeff');
+    expect(functions.checkValue(user)).toBe('Jeff');
   });
 
   test('User is Karen', () => {
     const user = 'Karen';
-    expect(user).toBe('Karen');
+    //Check if the user is Karen
+    // Complete here
   });
 });
 
