@@ -11,7 +11,7 @@ test('isAnagram function exists', () => {
 });
 
 test('"cinema" is an anagram of "iceman"', () => {
-  // Complete here
+  expect(isAnagram('cinema', 'iceman')).toBeTruthy();
 });
 
 test('"Dormitory" is an anagram of "dirty room##"', () => {
