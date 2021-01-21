@@ -116,7 +116,7 @@ test('User fetched name should be Leanne Graham', async () => {
 const reverseString = require('../src/reversestr');
 
 test('reverseString function exists', () => {
-  // Complete here
+  expect.anything(reverseString);
 });
 
 test('String reverses', () => {
