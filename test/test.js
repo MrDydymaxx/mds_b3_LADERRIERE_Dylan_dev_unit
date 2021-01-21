@@ -68,12 +68,12 @@ test('Adds 2 + 2 to NOT equal 5', () => {
 // toBeFalsy matches anything that an if statement treats as false
 
 test('Should be null', () => {
-  expect(functions.isNull()).toBeNull()
+  expect(functions.isNull()).toBeNull();
 });
 
 // toBeFalsy
 test('Should be falsy', () => {
-  // Complete here
+  expect(functions.checkValue(false)).toBeFalsy();
 });
 
 // toEqual
