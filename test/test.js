@@ -19,7 +19,7 @@ test('"Dormitory" is an anagram of "dirty room##"', () => {
 });
 
 test('"Hello" is NOT an anagram of "Aloha"', () => {
-  // Complete here
+  expect(isAnagram('Hello', 'Aloha')).toBeFalsy();
 });
 
 /*
