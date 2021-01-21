@@ -98,7 +98,7 @@ test('There is no I in the word team', () => {
 // Arrays
 test('Admin should be in usernames', () => {
   usernames = ['john', 'karen', 'admin'];
-  // Complete here
+  expect(usernames).toContain('admin');
 });
 
 // Working with async data
