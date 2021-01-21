@@ -7,7 +7,7 @@ const isAnagram = require('../src/anagram');
 */
 
 test('isAnagram function exists', () => {
-  // Complete here
+  expect.anything(isAnagram);
 });
 
 test('"cinema" is an anagram of "iceman"', () => {
