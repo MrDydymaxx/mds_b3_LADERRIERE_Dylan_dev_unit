@@ -106,7 +106,7 @@ test('Admin should be in usernames', () => {
 // Async Await since ES7
 test('User fetched name should be Leanne Graham', async () => {
   const data = await functions.fetchUser();
-  // Complete here
+  expect(data.name).toBe('Leanne Graham');
 });
 
 /*
