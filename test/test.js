@@ -37,8 +37,7 @@ describe('Checking Names', () => {
 
   test('User is Jeff', () => {
     const user = 'Jeff';
-    //Check if the user is Jeff
-    // Complete here
+    expect(user).toBe('Jeff');
   });
 
   test('User is Karen', () => {
