@@ -47,7 +47,7 @@ describe('Checking Names', () => {
 });
 
 test('Adds 2 + 2 to equal 4', () => {
-  // Complete here
+  expect(functions.add(2, 2)).toBe(4);
 });
 
 test('Adds 2 + 2 to NOT equal 5', () => {
