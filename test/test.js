@@ -126,5 +126,5 @@ test('String reverses', () => {
 });
 
 test('String reverses with uppercase', () => {
-  // Complete here
+  expect(reverseString("Panda")).toBe('ADNAP');
 });
