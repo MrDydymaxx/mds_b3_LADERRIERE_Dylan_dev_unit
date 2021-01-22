@@ -122,7 +122,7 @@ test('reverseString function exists', () => {
 });
 
 test('String reverses', () => {
-  // Complete here
+  expect(reverseString("Panda")).toBe('adnap');
 });
 
 test('String reverses with uppercase', () => {
